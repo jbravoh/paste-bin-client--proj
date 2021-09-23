@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+}
+
+body {
+  margin: 20px;
+}
+
+.page-title {
+  margin: 10px;
+  text-align: center;
+}
+
+.section-container {
+  display: grid;
+  grid-template-columns: 75% auto;
+  align-items: start;
+  margin: 0 60px;
+  grid-gap: 40px;
+}
